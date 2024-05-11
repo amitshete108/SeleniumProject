@@ -1,0 +1,368 @@
+<suite name="Parallel Tests" verbose="1" thread-count="19" parallel="tests">
+	<tests>
+	<test name="Windows+firefox Test">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="121.0 " />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Windows+chrome Test">
+	  	<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="60.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />				
+	    	</classes>
+		</test>
+		<test name="Windows+ie Test">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>
+	  	<test name="Mac+Safari Test">
+	  		<parameters>
+		  		<parameter name="platform" value="Mac" />
+		  		<parameter name="browser" value="safari" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Mac+chrome Test">
+	  		<parameters>
+		  		<parameter name="platform" value="Mac" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Mac+ie Test">
+	  		<parameters>
+		  		<parameter name="platform" value="Mac" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>	 	 	
+	  	<test name="Linux+firefox Test">
+	  		<parameters>
+		  		<parameter name="platform" value="Linux" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Linux+chrome Test">
+	  		<parameters>
+		  		<parameter name="platform" value="Linux" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Linux+ie Test">
+	  		<parameters>
+		  		<parameter name="platform" value="Linux" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>
+	  		<test name="Windows+firefox Test1">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Windows+chrome Test1">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Windows+ie Test1">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>
+	  	<test name="Mac+firefox Test1">
+	  		<parameters>
+		  		<parameter name="platform" value="Mac" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Mac+chrome Test1">
+	  		<parameters>
+		  		<parameter name="platform" value="Mac" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Mac+ie Test1">
+	  		<parameters>
+		  		<parameter name="platform" value="Mac" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>	 	 	
+	  	<test name="Linux+firefox Test1">
+	  		<parameters>
+		  		<parameter name="platform" value="Linux" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Linux+chrome Test1">
+	  		<parameters>
+		  		<parameter name="platform" value="Linux" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Linux+ie Test1">
+	  		<parameters>
+		  		<parameter name="platform" value="Linux" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>	 
+	  		<test name="Windows+firefox Test100">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Windows+chrome Test100">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Windows+ie Test100">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>
+	  		  		<test name="Windows+firefox Test101">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Windows+chrome Test101">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Windows+ie Test101">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>
+	  		  		<test name="Windows+firefox Test102">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Windows+chrome Test102">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Windows+ie Test102">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>
+	  		  		<test name="Windows+firefox Test103">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Windows+chrome Test103">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Windows+ie Test103">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>
+	  		  		<test name="Windows+firefox Test104">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="firefox" />
+		  		<parameter name="version" value="31.7.0" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	 </test>
+	 <test name="Windows+chrome Test104">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="chrome" />
+		  		<parameter name="version" value="9.0.1" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	     	<classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+		</test>
+		<test name="Windows+ie Test104">
+	  		<parameters>
+		  		<parameter name="platform" value="Windows" />
+		  		<parameter name="browser" value="Internet Explorer" />
+		  		<parameter name="version" value="" />
+		  		<parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+	  		</parameters>
+	    	 <classes>
+	      		<class name="grid.TheInternetHeroKupp" />
+	    	</classes>
+	  	</test>
+	  				 
+	</tests>
+</suite>
